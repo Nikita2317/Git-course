@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Знакомство с HTML тегами Часть3</title>
+</head>
+<body>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <div>
+            <p> Логин</p>
+            <input placeholder="login" tabindex="1" type="text" name="login" value="">
+        </div>
+        <div>
+            <p> Пароль</p>
+            <input tabindex="2" type="password" name="pass" value="">
+        </div>
+        <div>
+            <p> Телефон</p>
+            <input tabindex="3" type="tel" name="number" value="">
+        </div>
+        <div>
+            <p>Лююимый вид спорта</p>
+            <p><input checked tabindex="4" type="radio" name="club" value="Football"> Футбол </p>
+            <p><input tabindex="4" type="radio" name="club" value="Hockey"> Хоккей</p>
+            <p><input tabindex="4" type="radio" name="club" value="Basketball">Баскетболл</p>
+        </div>
+        <div>
+            <p>Любимый цвет</p>
+            <p><input checked tabindex="5" type="checkbox" name="color1" value="yes"> Зеленый </p>
+            <p><input tabindex="6" type="checkbox" name="color2" value="yes"> Голубой </p>
+            <p><input disabled tabindex="7" type="checkbox" name="color3" value="yes"> Белый </p>
+        </div>
+        <div>
+            <p>Какая машина?</p>
+            <select tabindex="8" name="car">
+                <option value="honda"> Honda</option>
+                <option value="subary"> Subaru</option>
+                <option selected value="kia"> Kia</option>
+            </select>
+        </div>
+        <div>
+            <p>Коментарий</p>
+            <textarea tabindex="9" name="text"></textarea>
+        </div>
+        <br>
+        <div>
+            <input tabindex="10" type="file" name="foto">
+        </div>
+        <br>
+        <div>
+            <button tabindex="11" type="submit"> Отправить </button>
+            <button tabindex="12" type="reset"> Очистить </button>
+        </div>
+    </form>
+</body>
+</html>
