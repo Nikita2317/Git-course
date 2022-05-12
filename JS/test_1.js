@@ -5,5 +5,3 @@ function testEqual(val) {
     }
     return "Not Equal"; // если услловия не выполняеться функция вернет Not Equal
   }
-  
-  testEqual(10);

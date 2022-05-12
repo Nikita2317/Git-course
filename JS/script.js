@@ -13,7 +13,8 @@ function shark(pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin){
 
 // Оператор if 
   function trueOrFalse(wasThatTrue) {
-    if (wasThatTrue)
+    if (wasThatTrue){
       return "Yes, that was true";
     }
   return "No, that was false";
+  }
